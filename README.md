@@ -8,5 +8,4 @@ Node modules used:
 - dotenv<br>
 LIRI Will<br>
 - Search Spotify for songs via API
-- Search Bands In Town for concerts via API
 - Search OMDB database for movies
