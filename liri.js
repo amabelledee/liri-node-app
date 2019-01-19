@@ -13,10 +13,10 @@ var input = process.argv.slice(3).join(" ");
 //======================================================================
 
 // LIRI Commands
-//spotify-this-song, movie-this, do-what-it-says
+//spotify-this, movie-this, do-this
 function commands(liriCommand, input) {
   switch (liriCommand) {
-    case "spotify-this-song":
+    case "spotify-this":
       getSong(input);
       break;
 
@@ -24,7 +24,7 @@ function commands(liriCommand, input) {
       getMovie(input);
       break;
 
-    case "do-what-it-says":
+    case "do-this":
       getRandom();
       break;
 
@@ -111,7 +111,7 @@ function getMovie(movieName) {
       var movieObject = JSON.parse(body);
      // Show results in the terminal
       var movieResults =
-        "------------------------------ begin ------------------------------" +
+        "------------------------------------------------------------" +
         "\r\n" +
         "Title: " +
         movieObject.Title +
@@ -134,7 +134,7 @@ function getMovie(movieName) {
         "Actors: " +
         movieObject.Actors +
         "\r\n" +
-        "------------------------------ end ------------------------------" +
+        "------------------------------------------------------------" +
         "\r\n";
       console.log(movieResults);
 
@@ -161,14 +161,14 @@ function getMovie(movieName) {
 
         //creates a variable for data in random.txt
         var randomData = data.split(",");
-        //passes data into getSong function
+        //passes data into liri Command on random.txt
         commands(randomData[0], randomData[1]);
       }
       console.log("test" + randomData[0] + randomData[1]);
     });
   }
 
-  //Function to log results from the other functions
+  //Function to log results
   function logResults(data) {
     fs.appendFile("log.txt", data, function (err) {
       if (err) throw err;

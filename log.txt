@@ -222,4 +222,21 @@ Language: English
 Plot: The life and career of the renowned film critic and social commentator, Roger Ebert.
 Actors: Martin Scorsese, Werner Herzog, Ava DuVernay, Roger Ebert
 ------------------------------ end ------------------------------
+[object Object]Artist: Backstreet Boys
+Song name: I Want It That Way
+Album Name: The Hits--Chapter One
+Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=d9d4ca62f40c454282e567a17d8890ed
+[object Object]Artist: Backstreet Boys
+Song name: I Want It That Way
+Album Name: The Hits--Chapter One
+Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=d9d4ca62f40c454282e567a17d8890ed
+[object Object]------------------------------ begin ------------------------------
+Title: Fried Green Tomatoes
+Year: 1991
+Imdb Rating: 7.7
+Country: USA
+Language: English
+Plot: A housewife who is unhappy with her life befriends an old lady in a nursing home and is enthralled by the tales she tells of people she used to know.
+Actors: Kathy Bates, Mary Stuart Masterson, Mary-Louise Parker, Jessica Tandy
+------------------------------ end ------------------------------
 [object Object]
