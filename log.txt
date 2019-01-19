@@ -1,0 +1,43 @@
+Artist: Star Cast
+Song name: Breathless - From “Star" Season 3
+Album Name: Breathless (From “Star” Season 3)
+Preview Link: null
+[object Object]Artist: The Cardigans
+Song name: Lovefool
+Album Name: First Band On The Moon
+Preview Link: null
+[object Object]------------------------------ begin ------------------------------
+Title: How to Train Your Dragon
+Year: 2010
+Imdb Rating: 8.1
+Rotten Tomatoes Rating: N/A
+Country: USA
+Language: English
+Plot: A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.
+Actors: Jay Baruchel, Gerard Butler, Craig Ferguson, America Ferrera
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Title: How to Train Your Dragon
+Year: 2010
+Imdb Rating: 8.1
+Rotten Tomatoes Rating: N/A
+Country: USA
+Language: English
+Plot: A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.
+Actors: Jay Baruchel, Gerard Butler, Craig Ferguson, America Ferrera
+------------------------------ end ------------------------------
+[object Object]Artist: French Montana
+Song name: No Stylist
+Album Name: No Stylist
+Preview Link: https://p.scdn.co/mp3-preview/7bb40a00fbb1e258c4097856429b45ac02fec09b?cid=d9d4ca62f40c454282e567a17d8890ed
+[object Object]------------------------------ begin ------------------------------
+Title: undefined
+Year: undefined
+Imdb Rating: undefined
+Rotten Tomatoes Rating: undefined
+Country: undefined
+Language: undefined
+Plot: undefined
+Actors: undefined
+------------------------------ end ------------------------------
+[object Object]
