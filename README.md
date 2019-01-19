@@ -24,6 +24,6 @@ To see what we have on the random.txt file, use the following command:
 ```
 node liri.js do-this
 ```
-Feel free to change around the text in this file to make your own surprises!
+Feel free to change around the random.txt in this file to make your own surprises!
 
 All the data from your queries will be logged in a log.txt file.
