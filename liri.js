@@ -1,19 +1,19 @@
 // dotenv package
 require("dotenv").config();
 
-// npm installs
+// variables for API and npm installs
 var fs = require("fs");
 var keys = require("./keys.js");
 var request = require("request");
 var Spotify = require("node-spotify-api");
 
-//Variables for APIs in the keys.js file
+//Variables for user commands and inputs
 var liriCommand = process.argv[2];
-var input = process.argv[3];
+var input = process.argv.slice(3).join(" ");
 //======================================================================
 
 // LIRI Commands
-//my-tweets, spotify-this-song, movie-this, do-what-it-says
+//spotify-this-song, movie-this, do-what-it-says
 function commands(liriCommand, input) {
   switch (liriCommand) {
     case "spotify-this-song":
@@ -31,21 +31,21 @@ function commands(liriCommand, input) {
     //If no command is entered, this is the default message to user
     default:
       console.log(
-        "No valid argument has been provided, please enter one of the following commands: 'my-tweets', 'spotify-this-song', 'movie-this', 'do-what-it-says' followed by parameter."
+        "INVALID. Please enter one of the following commands:'spotify-this-song', 'movie-this', 'do-what-it-says' followed by a query."
       );
   }
 }
 //========================================================================
 
-// FUNCTION FOR EACH LIRI COMMAND
+// LIRI Command Functions
 
-//Function for Spotify
+//Spotify function
 function getSong(songName) {
   var spotify = new Spotify(keys.spotify);
 
-  //If no song is provided, use "The Sign"
+  //If no song is provided, use "Bohemian Rhapsody"
   if (!songName) {
-    songName = "The Sign";
+    songName = "Bohemian Rhapsody";
   }
 
   console.log(songName);
@@ -89,31 +89,27 @@ function getSong(songName) {
 
 //Function for movies
 function getMovie(movieName) {
-  //
-  for (var i = 3; i < input.length; i++) {
-    if (i > 2 && i < input.length) {
-      movieName = movieName + " " + input[i];
-    }
-    if (!movieName) {
-      movieName = "Does not exist";
-    }
+  // If movie isn't provided
+  if (!movieName) {
+    movieName = "Life Itself";
+    console.log("\nIf you haven't watched Life Itself, then you should: <https://www.imdb.com/title/tt5989218/>\n"
+    + "\nIts on Hulu!\n")
   }
-  // Runs a request to the OMDB API with the movie specified
+  // variable for queryURL
   var queryUrl =
     "http://www.omdbapi.com/?t=" +
     movieName +
-    "&y=&plot=short&r=json&tomatoes=true&apikey=trilogy";
+    "&apikey=trilogy";
 
-  // Helps debugging
+  // debug
   console.log(queryUrl);
 
   //Callback to OMDB API to get movie info
   request(queryUrl, function (error, response, body) {
-    // If the request is successful
+    // If there is no error 
     if (!error && response.statusCode === 200) {
       var movieObject = JSON.parse(body);
-
-      //console.log(movieObject); // Show the text in the terminal
+     // Show results in the terminal
       var movieResults =
         "------------------------------ begin ------------------------------" +
         "\r\n" +
@@ -125,9 +121,6 @@ function getMovie(movieName) {
         "\r\n" +
         "Imdb Rating: " +
         movieObject.imdbRating +
-        "\r\n" +
-        "Rotten Tomatoes Rating: " +
-        movieObject.tomatoRating +
         "\r\n" +
         "Country: " +
         movieObject.Country +
@@ -156,31 +149,30 @@ function getMovie(movieName) {
       return;
     }
   });
-}
+};
+  //Function for Random
+  function getRandom() {
+    //Reads text in random.txt file
+    fs.readFile("random.txt", "utf8", function (error, data) {
+      if (error) {
+        return console.log(error);
+      } else {
+        console.log(data);
 
-//Function for Random
-function getRandom() {
-  //Reads text in random.txt file
-  fs.readFile("random.txt", "utf8", function (error, data) {
-    if (error) {
-      return console.log(error);
-    } else {
-      console.log(data);
+        //creates a variable for data in random.txt
+        var randomData = data.split(",");
+        //passes data into getSong function
+        commands(randomData[0], randomData[1]);
+      }
+      console.log("test" + randomData[0] + randomData[1]);
+    });
+  }
 
-      //creates a variable for data in random.txt
-      var randomData = data.split(",");
-      //passes data into getSong function
-      commands(randomData[0], randomData[1]);
-    }
-    console.log("test" + randomData[0] + randomData[1]);
-  });
-}
+  //Function to log results from the other functions
+  function logResults(data) {
+    fs.appendFile("log.txt", data, function (err) {
+      if (err) throw err;
+    });
+  }
 
-//Function to log results from the other functions
-function logResults(data) {
-  fs.appendFile("log.txt", data, function (err) {
-    if (err) throw err;
-  });
-}
-
-commands(liriCommand, input);
+  commands(liriCommand, input);
