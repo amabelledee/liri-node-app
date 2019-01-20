@@ -251,4 +251,77 @@ Preview Link: null
 Song name: Tearin' up My Heart - Radio Edit
 Album Name: 'N Sync
 Preview Link: https://p.scdn.co/mp3-preview/b179e4171207a90d3f0d52b307cd7ff5d2ed4df5?cid=d9d4ca62f40c454282e567a17d8890ed
+[object Object]Artist: Muse
+Song name: Plug In Baby
+Album Name: Origin Of Symmetry
+Preview Link: https://p.scdn.co/mp3-preview/61726c38fc9e4b262bdc5ef805dcb844b58b827e?cid=d9d4ca62f40c454282e567a17d8890ed
+[object Object]Artist: Muse
+Song name: Plug In Baby
+Album Name: Origin Of Symmetry
+Preview Link: https://p.scdn.co/mp3-preview/61726c38fc9e4b262bdc5ef805dcb844b58b827e?cid=d9d4ca62f40c454282e567a17d8890ed
+[object Object]Artist: Queen
+Song name: Bohemian Rhapsody - Remastered 2011
+Album Name: A Night At The Opera (Deluxe Remastered Version)
+Preview Link: null
+[object Object]------------------------------------------------------------
+Title: Friday
+Year: 1995
+Imdb Rating: 7.3
+Country: USA
+Language: English
+Plot: Two homies, Smokey and Craig, smoke a dope dealer's weed and try to figure a way to get the $200 they owe to the dealer by 10 p.m. that same night.
+Actors: Ice Cube, Chris Tucker, Nia Long, Tommy 'Tiny' Lister
+------------------------------------------------------------
+[object Object]------------------------------------------------------------
+Title: Life Itself
+Year: 2014
+Imdb Rating: 7.8
+Country: USA
+Language: English
+Plot: The life and career of the renowned film critic and social commentator, Roger Ebert.
+Actors: Martin Scorsese, Werner Herzog, Ava DuVernay, Roger Ebert
+------------------------------------------------------------
+[object Object]------------------------------------------------------------
+Title: Life Itself
+Year: 2014
+Imdb Rating: 7.8
+Country: USA
+Language: English
+Plot: The life and career of the renowned film critic and social commentator, Roger Ebert.
+Actors: Martin Scorsese, Werner Herzog, Ava DuVernay, Roger Ebert
+------------------------------------------------------------
+[object Object]Artist: *NSYNC
+Song name: Tearin' up My Heart - Radio Edit
+Album Name: 'N Sync
+Preview Link: https://p.scdn.co/mp3-preview/b179e4171207a90d3f0d52b307cd7ff5d2ed4df5?cid=d9d4ca62f40c454282e567a17d8890ed
+[object Object]Artist: Queen
+Song name: Bohemian Rhapsody - Remastered 2011
+Album Name: A Night At The Opera (Deluxe Remastered Version)
+Preview Link: null
+[object Object]Artist: Muse
+Song name: Plug In Baby
+Album Name: Origin Of Symmetry
+Preview Link: https://p.scdn.co/mp3-preview/61726c38fc9e4b262bdc5ef805dcb844b58b827e?cid=d9d4ca62f40c454282e567a17d8890ed
+[object Object]------------------------------------------------------------
+Title: Life Itself
+Year: 2014
+Imdb Rating: 7.8
+Country: USA
+Language: English
+Plot: The life and career of the renowned film critic and social commentator, Roger Ebert.
+Actors: Martin Scorsese, Werner Herzog, Ava DuVernay, Roger Ebert
+------------------------------------------------------------
+[object Object]------------------------------------------------------------
+Title: Friday
+Year: 1995
+Imdb Rating: 7.3
+Country: USA
+Language: English
+Plot: Two homies, Smokey and Craig, smoke a dope dealer's weed and try to figure a way to get the $200 they owe to the dealer by 10 p.m. that same night.
+Actors: Ice Cube, Chris Tucker, Nia Long, Tommy 'Tiny' Lister
+------------------------------------------------------------
+[object Object]Artist: *NSYNC
+Song name: Tearin' up My Heart - Radio Edit
+Album Name: 'N Sync
+Preview Link: https://p.scdn.co/mp3-preview/b179e4171207a90d3f0d52b307cd7ff5d2ed4df5?cid=d9d4ca62f40c454282e567a17d8890ed
 [object Object]
