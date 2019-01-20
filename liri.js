@@ -31,7 +31,7 @@ function commands(liriCommand, input) {
     //If no command is entered, this is the default message to user
     default:
       console.log(
-        "INVALID. Please enter one of the following commands:'spotify-this-song', 'movie-this', 'do-what-it-says' followed by a query."
+        "INVALID. Please enter one of the following commands:'spotify-this', 'movie-this', 'do-what-it-says' followed by a query."
       );
   }
 }
